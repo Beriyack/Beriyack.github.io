@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+        <title>Document</title>
+    </head>
+    <body>
+        <h1>Installer - PHP</h1>
+        <p>Il existe 2 solutions pour installer PHP.</p>
+        <ul>
+            <li>Depuis le site officiel (<a href="https://www.php.net/">https://www.php.net/</a></li>
+            <li>Avec un logiciel (ex : Wampserver, Laragon, Easyphp)</li>
+        </ul>
+        <p></p>
+        <p>Dans cette documentation, les logiciels ne seront pas utilisés car ils rajoutent des fonctionnalités dont on n’a pas besoin.</p>
+        <p>Pour son installation, il faut se rendre sur le site officiel et télécharger la dernière version stable.</p>
+        <img src="" alt="Windows download">
+        <p>Il y a 4 versions différente :</p>
+        <ul>
+            <li><strong>2x 64bits<strong> : Non Thread Safe et Thread Safe</li>
+            <li><strong>2x 32bits<strong> : Non Thread Safe et Thread Safe</li>
+        </ul>
+        <p>La version a téléchargé est celle qui correspond à ton système d’exploitation.</p>
+        <img src="" alt="Type du système">
+        <p>La différence entre Non Thread Safe et Thread Safe, c’est si on veut installer PHP pour un serveur Web. PHP est utilisé localement, donc on choisit Non Thread Safe.</p>
+        <img src="" alt="Non Thread Safe">
+        <p>Une fois que le fichier Zip est téléchargé, il faut le décompresser dans n’importe quel dossier. Le choix du dossier conseillé est dans « C:\Program Files\php\php-X.X.X ». Remplacer les X par la version téléchargée.</p>
+        <p>En créant un dossier par version, cela permet de pouvoir tester plusieurs versions différentes de PHP.</p>
+        <p>Pour que Windows reconnaisse PHP, il faut modifier les variables d’environnement.</p>
+        <img src="" alt="Modifier les Variables d'environnements">
+        <p>Cliquer sur « Variables d’environnement… ».</p>
+        <img src="" alt="Variables d'environnements...">
+        <p>Modifier la variable « Path ».</p>
+        <img src="" alt="Variable Path">
+        <p>Créer une nouvelle saisie en ajoutant le chemin du dossier php-X.X.X.</p>
+        <img src="" alt="Nouvelle commande">
+        <p>Désormais Windows reconnait PHP. Pour vérifier que c’est vrai, il faut ouvrir l’invite de commande (CMD) et taper « php -v ».</p>
+        <img src="" alt="php -v">
+        <p>Si une <span style="color:red"><strong>erreur<strong></span> survient à l’exécution de la commande, il faudra télécharger « Visual C++ Redistributable ».</p>
+        <img src="" alt="Version de Visual C++ Redistributable">
+    </body>
+</html>

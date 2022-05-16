@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+        <title>Document</title>
+    </head>
+    <body>
+        <h1>configuration - PHP</h1>
+        <h2>Ajouter une extension</h2>
+        <p>Par défaut PHP ne possède pas toute la configuration nécessaire pour un développement optimale.</p>
+        <p>Pour ajouter une extension, exemple PDO qui permet de se connecter à une base de données.</p>
+        <p>Se rendre dans le dossier de « php-X.X.X ».</p>
+        <p>Copier les fichier « php.ini-development » sur le bureau.</p>
+        <p>Renommer-le en php.ini.</p>
+        <img src="" alt="Dossier php-X.X.X">
+        <p>Ouvrir le fichier « php.ini » avec votre éditeur de texte préféré.</p>
+        <p>Modifier les lignes ci-dessous, pour qu’elles ne soient plus en commentaire.</p>
+        <ul>
+            <li>« extension_dir = "ext" ». Cette ligne permet de donner le nom du dossier des extensions.</li>
+            <li>« extension=pdo_mysql » : Cette ligne permet d’activer l’extension PDO avec MySQL.</li>
+            <li>« extension=pdo_sqlite » : Cette ligne permet d’activer l’extension PDO avec SQLite.</li>
+        </ul>
+        <img src="" alt="php.ini - ext">
+        <img src="" alt="php.ini - pdo">
+        <p>Sauvegarder et déplacer le fichier « php.ini » dans le dossier « php-X.X.X ».</p>
+
+        <p>Désormais l’extension PDO pour MySQL et pour SQLite sont disponible.</p>
+    </body>
+</html>
